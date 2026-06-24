@@ -2,7 +2,7 @@
 
 public class NotificationManager
 {
-    IMessageService _messageService;
+    private readonly IMessageService _messageService;
     
     public NotificationManager(IMessageService messageService)
     {
