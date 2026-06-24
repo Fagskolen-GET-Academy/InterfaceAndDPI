@@ -1,9 +1,9 @@
 ﻿namespace Demo2;
 
-public class EmailService
+public class EmailService:IMessageService
 {
     public void Send(string message)
     {
-        Console.WriteLine($"Sending message: {message}");
+        Console.WriteLine($"Sending Email: {message}");
     }
 }
