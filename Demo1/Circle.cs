@@ -11,7 +11,6 @@ public class Circle:IShape
 
     public double Area()
     {
-        double area = Math.PI* _radius * _radius ;
-        return area;
+        return Math.PI * _radius * _radius ;
     }
 }
